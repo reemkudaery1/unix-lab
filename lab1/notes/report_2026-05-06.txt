@@ -1,0 +1,6 @@
+User Name: hp
+Current Path: /home/hp/shell_lab/scripts
+Number of files in data: 1
+User Name: hp
+Current Path: /home/hp/shell_lab/scripts
+Number of files in data: 1
