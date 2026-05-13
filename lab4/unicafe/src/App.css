@@ -1,0 +1,99 @@
+body {
+  background-color: #f0f2f5;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.feedback-card {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #1e2a3e;
+}
+
+.buttons-group {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: white;
+}
+
+.btn-good {
+  background-color: #2ecc71;
+}
+.btn-good:hover {
+  background-color: #27ae60;
+  transform: scale(1.02);
+}
+
+.btn-neutral {
+  background-color: #3498db;
+}
+.btn-neutral:hover {
+  background-color: #2980b9;
+  transform: scale(1.02);
+}
+
+.btn-bad {
+  background-color: #e74c3c;
+}
+.btn-bad:hover {
+  background-color: #c0392b;
+  transform: scale(1.02);
+}
+
+.stats-box {
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.stats-box h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1e2a3e;
+}
+
+.stats-table {
+  width: 100%;
+  font-size: 18px;
+}
+
+.stats-table td {
+  padding: 8px;
+}
+
+.stats-table td:first-child {
+  font-weight: bold;
+}
+
+.stat-positive {
+  color: #2ecc71;
+  font-weight: bold;
+}

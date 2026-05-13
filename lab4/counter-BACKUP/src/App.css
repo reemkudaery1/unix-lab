@@ -1,0 +1,65 @@
+body {
+  background-color: #f0f2f5;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-card {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #1e2a3e;
+}
+
+.counter-box {
+  background-color: #e3f2fd;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 2px solid #bbdef5;
+}
+
+.counter-box h2 {
+  font-size: 56px;
+  margin: 0;
+  color: #0a2f44;
+}
+
+.buttons-group {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: white;
+}
+
+.btn-inc { background-color: #2ecc71; }
+.btn-inc:hover { background-color: #27ae60; transform: scale(1.02); }
+
+.btn-dec { background-color: #e74c3c; }
+.btn-dec:hover { background-color: #c0392b; transform: scale(1.02); }
+
+.btn-res { background-color: #95a5a6; }
+.btn-res:hover { background-color: #7f8c8d; transform: scale(1.02); }
