@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2563eb;
+}
+
+.search {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.countries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.flag {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
